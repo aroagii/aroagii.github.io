@@ -1,0 +1,13 @@
+.redesSociales{
+    height: 300px;
+    width: 300px;
+}
+#encabezado{
+    border: 3px solid black;
+}
+#parteAbajoEncabezado{
+    border: 3px solid green;
+}
+.apartado{
+    border: 3px solid orange;
+}
