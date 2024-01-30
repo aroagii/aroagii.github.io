@@ -2,10 +2,32 @@ img{
     height: 300px;
     width: 300px;
 }
-#imagen_redes{
+.imagen_redes{
     width: 15px;
     height: 15px;
+    vertical-align: middle;
 }
-#contacto{
-    text-align: right;
+#botonContacto{
+    border-style: solid;
+    border-color: solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(255, 92, 0);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: -7px;
+    padding: 5px;
+    width: 100px;
+}
+#botonContacto:hover{
+    background-color: rgb(204, 75, 0);
+    transition-duration: 0.3s;
+}
+.redes{
+    font-weight: bold;
+}
+.pie{
+padding: 10px;
 }
