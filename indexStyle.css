@@ -9,3 +9,19 @@ img{
 #contacto{
     text-align: right;
 }
+/* parte aroa TABLA*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #f0a458;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f27e14;
+}
