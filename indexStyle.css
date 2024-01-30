@@ -1,3 +1,8 @@
+/* CSS GENERAL */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+/* IMAGENES */
 img{
     height: 300px;
     width: 300px;
@@ -9,7 +14,7 @@ img{
 #contacto{
     text-align: right;
 }
-/* parte aroa TABLA*/
+/*TABLA HORARIO*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -25,3 +30,8 @@ th, td {
 th {
     background-color: #f27e14;
 }
+
+#vacio{
+    background-color: #fcc47c;
+}
+
