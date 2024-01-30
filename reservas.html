@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reservasStyle.css">
 </head>
+
 <body>
-    
+    <h1>Bienvenido, haga su reserva</h1>
+    <div class="container">
+        <form action="index.html">
+            <label for="actividad">Actividad</label>
+            <select name="actividad" id="actividad" required="required">
+                <option value="Yoga">Yoga</option>
+                <option value="Pilates">Pilates</option>
+                <option value="GAP">GAP</option>
+                <option value="Spinning">Spinning</option>
+                <option value="BodyCombat">Body combat</option>
+                <option value="Zumba">Zumba</option>
+                <option value="Natacion">Natacion</option>
+            </select>
+            <br>
+            <br>
+            <label for="numSocio">Nº de Socio</label>
+            <input type="text" id="numSocio" name="numSocio" placeholder="Nº socio" required="required">
+            <br>
+            <br>
+            <label for="fechaReserva">Fecha de reserva</label>
+            <input type="date" id="fechaReserva" name="fechaReserva" required="required">
+            <br>
+            <br>
+            <label for="horaReserva">Hora de reserva</label>
+            <select name="horaReserva" id="horaReserva" required="required">
+                <option value="8:00">8:00</option>
+                <option value="9:00">9:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+                <option value="18:00">18:00</option>
+                <option value="19:00">19:00</option>
+                <option value="20:00">20:00</option>
+                <option value="21:00">21:00</option>
+                <option value="22:00">22:00</option>
+            </select>
+            <label for="salaReservada"></label>
+
+            <div class="pie">
+                <label class="redes" for="redes">
+                    Siguenos en:
+                    <img class="imagen_redes" src="images/logo_instagram.png" alt="instagram"> @activegym
+                    <img class="imagen_redes" src="images/logo_twitter.png" alt="twitter"> @activegym
+                    <img class="imagen_redes" src="images/logo_facebook.png" alt="facebook"> @activegym
+                </label>
+                <a id="botonContacto" href="contacto.html">Contacto</a>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>

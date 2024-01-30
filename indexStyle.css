@@ -7,6 +7,7 @@ img{
     height: 300px;
     width: 300px;
 }
+/* ZONA DE ABAJO: REDES Y CONTACTO */
 .imagen_redes{
     width: 15px;
     height: 15px;
@@ -35,6 +36,7 @@ img{
 }
 .pie{
 padding: 10px;
+
 }
 /*TABLA HORARIO*/
 table {
