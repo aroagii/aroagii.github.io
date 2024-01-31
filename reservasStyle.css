@@ -1,3 +1,32 @@
+.contenedor{
+    background: grey;
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+/* FORMULARIO */
+.formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.container h1{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.preguntas{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5 ;
+    font-size: 18px;
+}
+/* REDES-CONTACTO */
 .imagen_redes{
     width: 15px;
     height: 15px;
@@ -14,6 +43,7 @@
     text-align: center;
     float: right;
     margin-top: -7px;
+    right: 0px;
     padding: 5px;
     width: 100px;
 }
@@ -25,10 +55,6 @@
     font-weight: bold;
 }
 .pie{
-padding: 10px;
-position: sticky;
-bottom: 0;
-}
-.contendor{
-    position: relative;
+    bottom: 0;
+    padding: 10px;
 }
