@@ -1,15 +1,93 @@
+/* CSS GENERAL */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+p{
+    font-size: 20px;
+   }
+/* IMAGENES */
+
 img{
     height: 300px;
     width: 300px;
+    height: auto;
 }
-#imagen_redes{
+
+#imgns{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 20px;
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+/* ZONA DE ABAJO: REDES Y CONTACTO */
+.imagen_redes{
     width: 15px;
     height: 15px;
+    vertical-align: middle;
+    
 }
-#contacto{
-    text-align: right;
+#botonContacto{
+    border-style: solid;
+    border-color: solid black;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #f27e14;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: -7px;
+    padding: 5px;
+    width: 100px;
 }
-/* parte aroa TABLA*/
+#botonContacto:hover{
+    background-color: #f0a458;
+    transition-duration: 0.3s;
+}
+.redes{
+    font-weight: bold;
+}
+.pie{
+padding: 10px;
+
+}
+/* CUOTAS */
+#contenido h3 {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+#contenido h2 {
+    color: #19191a;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contenido h3 p{
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+
+}
+#contenido{
+    background-color: #fff4e0;
+    padding: 40px;
+    margin: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+/*TABLA HORARIO*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -24,4 +102,12 @@ th, td {
 
 th {
     background-color: #f27e14;
+    color:#19191a
+}
+td{
+    padding: 30px;
+}
+
+#vacio{
+    background-color: #fcc47c;
 }

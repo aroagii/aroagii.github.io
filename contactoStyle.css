@@ -1,12 +1,15 @@
-.redesSociales{
+img{
     height: 300px;
     width: 300px;
 }
 #encabezado{
     border: 3px solid black;
+    text-align: center;
+    font-size: 8px;
 }
 #parteAbajoEncabezado{
     border: 3px solid green;
+    column-count: 3;
 }
 .apartado{
     border: 3px solid orange;
