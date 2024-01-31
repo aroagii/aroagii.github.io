@@ -7,12 +7,17 @@ img{
     height: 300px;
     width: 300px;
 }
+#imgns{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
 /* ZONA DE ABAJO: REDES Y CONTACTO */
 .imagen_redes{
     width: 15px;
     height: 15px;
     vertical-align: middle;
-    float: right;
+    
 }
 #botonContacto{
     border-style: solid;
