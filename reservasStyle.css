@@ -1,17 +1,19 @@
 .contenedor{
-    background: grey;
     width: 100%;
+    height: 100%;
     font-family: 'Trebuchet MS';
-    color: white;
+    background-image: url(images/gimnasioPortada.jpg);
 }
 /* FORMULARIO */
 .formulario{
     width: 400px;
-    background: #24303c;
+    background: orange;
     padding: 30px;
+    padding-top: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 5px;
+    color: black;
 }
 .container h1{
     font-size: 22px;
@@ -19,12 +21,24 @@
 }
 .preguntas{
     width: 100%;
-    background: #24303c;
+    background: orange;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5 ;
+    border: 1px solid black ;
     font-size: 18px;
+    color: white;
+}
+#enviar{
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+}
+#enviar:hover{
+    background-color: grey;
 }
 /* REDES-CONTACTO */
 .imagen_redes{
@@ -57,4 +71,5 @@
 .pie{
     bottom: 0;
     padding: 10px;
+    color: white;
 }
