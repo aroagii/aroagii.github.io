@@ -1,16 +1,18 @@
 /* CSS GENERAL */
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
 } 
 /* IMAGENES */
 img{
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
 }
 #imgns{
     height: 300px;
     width: 300px;
     float: right;
+    margin: 20px;
 }
 /* ZONA DE ABAJO: REDES Y CONTACTO */
 .imagen_redes{
@@ -44,6 +46,31 @@ img{
 padding: 10px;
 
 }
+/* CUOTAS */
+#contenido h3 {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+#contenido h2 {
+    color: #19191a;
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contenido h3 p{
+    color: black;
+    font-weight: lighter;
+
+}
+#contenido{
+    background-color: #fff4e0;
+    padding: 40px;
+    margin: 20px;
+    text-align: left;
+}
+
 /*TABLA HORARIO*/
 table {
     width: 100%;
@@ -59,6 +86,10 @@ th, td {
 
 th {
     background-color: #f27e14;
+    color:#19191a
+}
+td{
+    padding: 30px;
 }
 
 #vacio{
