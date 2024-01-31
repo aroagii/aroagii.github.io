@@ -36,25 +36,37 @@ img{
     border-color: solid black;
     border-radius: 10px;
     border-width: 2px;
-    background-color: #f27e14;
+    background-color: orange;
     color: black;
     text-decoration: none;
     text-align: center;
     float: right;
-    margin-top: -7px;
+    margin-top: -3px;
     padding: 5px;
     width: 100px;
 }
 #botonContacto:hover{
-    background-color: #f0a458;
-    transition-duration: 0.3s;
+    background-color: rgb(197, 128, 0);
 }
 .redes{
     font-weight: bold;
+    vertical-align: middle;
+    text-decoration: none;
 }
 .pie{
-padding: 10px;
-
+    background: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    padding: 10px;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: rgb(167, 167, 167);
 }
 /* CUOTAS */
 #contenido h3 {
