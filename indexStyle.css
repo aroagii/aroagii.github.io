@@ -80,6 +80,10 @@ padding: 10px;
     box-sizing: border-box;
     position: relative;
 }
+
+a{
+    text-decoration: none;
+}
 /*TABLA HORARIO*/
 table {
     width: 100%;
