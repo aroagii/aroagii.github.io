@@ -9,19 +9,17 @@ body{
 }
 /* FORMULARIO */
 .formulario{
-    width: 400px;
+    width: 450px;
     background: orange;
     padding: 30px;
-    padding-top: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 130px;
     border-radius: 5px;
     color: black;
     box-shadow: 5px 10px 8px black;
 }
-.container h1{
-    font-size: 22px;
-    margin-top: 20px;
+.contenedor h1{
+    text-align: center;
 }
 .preguntas{
     width: 100%;
@@ -31,7 +29,7 @@ body{
     margin-bottom: 16px;
     border: 1px solid black ;
     font-size: 18px;
-    color: gray;
+    color: black;
 }
 #enviar{
     width: 100%;

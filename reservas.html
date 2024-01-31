@@ -16,6 +16,7 @@
                 <label for="actividad">Actividad</label>
                 <br>
                 <select class="preguntas" name="actividad" id="actividad" required="required">
+                    <option value="" hidden>Elija una actividad</option>
                     <option value="Yoga">Yoga</option>
                     <option value="Pilates">Pilates</option>
                     <option value="GAP">GAP</option>
@@ -40,6 +41,7 @@
                 <label for="horaReserva">Hora de reserva</label>
                 <br>
                 <select class="preguntas" name="horaReserva" id="horaReserva" required="required">
+                    <option value="" hidden>Elija una hora</option>
                     <option value="8:00">8:00</option>
                     <option value="9:00">9:00</option>
                     <option value="10:00">10:00</option>
@@ -54,7 +56,23 @@
                     <option value="21:00">21:00</option>
                     <option value="22:00">22:00</option>
                 </select>
-                <label for="salaReservada"></label>
+                <br>
+                <br>
+                <label for="salaReservada">Sala</label>
+                <br>
+                <select class="preguntas" name="salaReservada" id="salaReservada">
+                    <option value="Sala Yoga 1">Sala Yoga 1</option>
+                    <option value="Sala Yoga 2">Sala Yoga 2</option>
+                    <option value="Sala Pilates 1">Sala Pilates 1</option>
+                    <option value="Sala Pilates 2">Sala Pilates 2</option>
+                    <option value="Sala GAP 1">Sala GAP 1</option>
+                    <option value="Sala GAP 2">Sala GAP 2</option>
+                    <option value="Sala Spinning">Sala Spinning</option>
+                    <option value="Sala Body Combat 1">Sala Body Combat 1</option>
+                    <option value="Sala Zumba">Sala Zumba</option>
+                    <option value="Piscina 1">Piscina 1</option>
+                    <option value="Piscina 2">Piscina 2</option>
+                </select>
                 <input id="enviar" type="submit" value="Reservar">
         </div>
         </form>
