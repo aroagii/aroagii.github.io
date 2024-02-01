@@ -131,59 +131,8 @@ th {
     background-color: #fcc47c;
 }
 
-/*Parte Yeray*/
+/*Parte del encabezado*/
 #encabezado{
-    border: 3px solid red;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
-#parteAbajoEncabezado{
-    border: 3px dotted green;
-    column-count: 3;
-}
-
-#parteAbajoEncabezado ul li{
-    border: 1px dotted gray;
-    text-align: center;
-}
-
-#parteAbajoEncabezado ul li a{
-    display: block;
-    padding: 0 10px;
-    text-decoration: none;
-}
-
-#parteAbajoEncabezado ul li a:hover{
-    background-color: orange;
-}
-
-#parteAbajoEncabezado ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding-right: 20px;
-}
-
-#tituloEncabezado{
-    border: 1px dotted gray;
-    text-align: center;
-    display: block;
-}
-
-body{
-    margin: 0;
-	padding: 0;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
-}
-
-/*parte yeray*/
-#encabezado{
-    border: 3px solid red;
     width: 100%;
     height: 100%;
     left: 0;
@@ -192,25 +141,31 @@ body{
     background-color: #f8e9da;
 }
 
-#encabezado img{
-    width: 100px;
-    height: 70%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
+/*imagen del encabezado*/
+#imagenEncabezado{
+    text-align: center;
 }
 
+#imagenEncabezado img{
+    width: 100px;
+}
+
+#imagenPortada{
+    width: 100%;
+}
+
+/*Columnas del encabezado*/
 #parteAbajoEncabezado{
-    border: 3px dotted green;
     column-count: 3;
-    margin-top: 100px;
+    height: 100%;
+    display: grid;
 }
 
 #parteAbajoEncabezado ul li{
-    border: 1px dotted gray;
     text-align: center;
+    border: 1px solid black;
+    padding: .5em;
+    width: 100%;
 }
 
 #parteAbajoEncabezado ul li a{
@@ -220,15 +175,16 @@ body{
     color: black;
 }
 
-#parteAbajoEncabezado ul li a:hover{
+#parteAbajoEncabezado ul li:hover{
     background-color: orange;
 }
 
 #parteAbajoEncabezado ul{
     margin: 0;
     padding: 0;
+    display: inline-flex;
     list-style: none;
-    padding-right: 20px;
+    padding: 0;
 }
 
 #tituloEncabezado{
@@ -237,15 +193,11 @@ body{
     display: block;
 }
 
+/*Para poder poner fijo el encabezado en la parte de arriba*/
 body{
     margin: 0;
 	padding: 0;
-	background: #f2f2f2; 
 	font-size: 1em;
 	line-height: 1.5em;
+    background-color: #fff4e0;
 }
-
-img{
-    width: 100%;
-}
-
