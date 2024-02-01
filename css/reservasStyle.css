@@ -1,28 +1,27 @@
+/*RESPONSIVE*/
+
+/* --------- */
 body{
     background: url(../images/gimnasioPortada.jpg);
     background-size: 100%;
-}
-.contenedor{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0 auto;
-    width: 100%;
 }
 /* FORMULARIO */
+.contenedor h1{
+    text-align: center;
+}
 .formulario{
     font-family: 'Trebuchet MS';
     width: 450px;
     background: orange;
-    padding: 30px;
+    padding: 30px 50px;
     margin: auto;
-    margin-top: 130px;
+    margin-top: 105px;
     border-radius: 5px;
     color: black;
     box-shadow: 0px 0px 10px 7px black;
 }
-.contenedor h1{
-    text-align: center;
-}
-.preguntas{
+.cajaRespuesta{
     width: 100%;
     background: orange;
     padding: 10px;
@@ -33,52 +32,35 @@ body{
     color: black;
 }
 #enviar{
+    cursor: pointer;
     width: 100%;
     background: black;
     border: none;
     padding: 12px;
     color: white;
-    margin: 16px 0;
+    margin: 30px 0;
 }
 #enviar:hover{
     background-color: grey;
 }
 /* REDES-CONTACTO */
-.imagen_redes{
-    width: 15px;
-    height: 15px;
-    vertical-align: middle;
-}
-#botonContacto{
-    border-style: solid;
-    border-color: solid black;
-    border-radius: 10px;
-    border-width: 2px;
-    background-color: orange;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    float: right;
-    margin-top: -3px;
-    padding: 5px;
-    width: 100px;
-}
-#botonContacto:hover{
-    background-color: rgb(197, 128, 0);
-}
-.redes{
-    font-weight: bold;
-    vertical-align: middle;
-}
 .pie{
-    background: url(../images/negro.jpg);
-    
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     bottom: 0;
     left: 0;
     width: 99%;
     padding: 10px;
     color: white;
+}
+.imagen_redes{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.redes{
+    font-weight: bold;
+    vertical-align: middle;
 }
 a{
     text-decoration: none;
@@ -91,4 +73,21 @@ a:visited{
 }
 a:hover{
     color: rgb(167, 167, 167);
+}
+#botonContacto{
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: -3px;
+    padding: 5px;
+    width: 100px;
+    box-shadow: 0px 0px 10px 7px black;
+}
+#botonContacto:hover{
+    background-color: rgb(197, 128, 0);
+    transition-duration: 0.3s;
 }
