@@ -1,10 +1,43 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff4e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
 }
+
+
 a{
     text-decoration: none;
     color: #000;
+    
 }
+
+a:hover {
+    color: darkorange;
+}
+
 h1, h2{
     text-align: center;
+}
+
+h1{
+    color: #19191a;
+}
+h2{
+    color: #ff6600;
+    text-transform: uppercase;
+}
+
+.desc{
+    line-height: 1.6;
+}
+
+img{
+    width: 50%; /* Ajusta según tus necesidades */
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
