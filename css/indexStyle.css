@@ -116,3 +116,54 @@ th {
 #vacio{
     background-color: #fcc47c;
 }
+
+/*Parte Yeray*/
+#encabezado{
+    border: 3px solid red;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#parteAbajoEncabezado{
+    border: 3px dotted green;
+    column-count: 3;
+}
+
+#parteAbajoEncabezado ul li{
+    border: 1px dotted gray;
+    text-align: center;
+}
+
+#parteAbajoEncabezado ul li a{
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#parteAbajoEncabezado ul li a:hover{
+    background-color: orange;
+}
+
+#parteAbajoEncabezado ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+#tituloEncabezado{
+    border: 1px dotted gray;
+    text-align: center;
+    display: block;
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
