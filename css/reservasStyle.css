@@ -1,10 +1,18 @@
 /*RESPONSIVE*/
-
+*{
+    box-sizing: border-box;
+}
 /* --------- */
 body{
     background: url(../images/gimnasioPortada.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid red;
+}
+.contenedor{
+    margin: 0;
+    padding: 0;
 }
 /* FORMULARIO */
 .contenedor h1{
@@ -12,7 +20,7 @@ body{
 }
 .formulario{
     font-family: 'Trebuchet MS';
-    width: 450px;
+    width: 550px;
     background: orange;
     padding: 30px 50px;
     margin: auto;
@@ -20,6 +28,7 @@ body{
     border-radius: 5px;
     color: black;
     box-shadow: 0px 0px 10px 7px black;
+    border: 1px solid red;
 }
 .cajaRespuesta{
     width: 100%;
@@ -49,9 +58,10 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 99%;
+    width: 100%;
     padding: 10px;
     color: white;
+    border: 1px solid red;
 }
 .imagen_redes{
     width: 15px;
@@ -61,6 +71,7 @@ body{
 .redes{
     font-weight: bold;
     vertical-align: middle;
+    border: 1px solid red;
 }
 a{
     text-decoration: none;
@@ -86,6 +97,7 @@ a:hover{
     padding: 5px;
     width: 100px;
     box-shadow: 0px 0px 10px 7px black;
+    border: 1px solid red;
 }
 #botonContacto:hover{
     background-color: rgb(197, 128, 0);
