@@ -2,6 +2,76 @@
 *{
     box-sizing: border-box;
 }
+/*Parte del encabezado*/
+#encabezado{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background-color: #f8e9da;
+}
+
+/*imagen del encabezado*/
+#imagenEncabezado{
+    text-align: center;
+}
+
+#imagenEncabezado img{
+    width: 100px;
+}
+
+#imagenPortada{
+    width: 100%;
+}
+
+/*Columnas del encabezado*/
+#parteAbajoEncabezado{
+    column-count: 3;
+    height: 100%;
+    display: grid;
+}
+
+#parteAbajoEncabezado ul li{
+    text-align: center;
+    border: 1px solid black;
+    padding: .5em;
+    width: 100%;
+}
+
+#parteAbajoEncabezado ul li a{
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#parteAbajoEncabezado ul li:hover{
+    background-color: orange;
+}
+
+#parteAbajoEncabezado ul{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+#tituloEncabezado{
+    border: 1px dotted gray;
+    text-align: center;
+    display: block;
+}
+
+/*Para poder poner fijo el encabezado en la parte de arriba*/
+body{
+    margin: 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+    background-color: #fff4e0;
+}
 /* --------- */
 body{
     background: url(../images/gimnasioPortada.jpg);
