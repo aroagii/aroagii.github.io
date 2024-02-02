@@ -65,21 +65,19 @@
 }
 
 /*Para poder poner fijo el encabezado en la parte de arriba*/
-body{
+body.reservas{
     margin: 0;
 	padding: 0;
 	font-size: 1em;
 	line-height: 1.5em;
     background-color: #fff4e0;
-}
-/* --------- */
-body{
     background: url(../images/gimnasioPortada.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid red;
 }
+/* RESERVAS */
 .contenedor{
     margin: 0;
     padding: 0;
