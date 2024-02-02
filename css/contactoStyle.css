@@ -56,9 +56,10 @@
 body{
     margin: 0;
 	padding: 0;
-	background: #f2f2f2; 
+	background-color: #fff4e0;
 	font-size: 1em;
 	line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img{
@@ -72,8 +73,8 @@ img{
 }
 
 iframe{
-    width: 400px;
-    height: 400px;
+    width: 5000px;
+    height: 350px;
 }
 
 h2{
@@ -87,4 +88,58 @@ h2{
 
 #contacto p{
     font-weight: bold;
+}
+
+.pie{
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    padding: 10px;
+    color: white;
+}
+.imagen_redes{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.redes{
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(167, 167, 167);
+}
+
+#botonContacto{
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    margin-top: -3px;
+    padding: 5px;
+    width: 100px;
+    box-shadow: 0px 0px 10px 7px black;
+}
+
+#botonContacto:hover{
+    background-color: rgb(197, 128, 0);
+    transition-duration: 0.3s;
 }
