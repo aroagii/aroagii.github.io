@@ -10,6 +10,7 @@
 </head>
 
 <body class="bodyReservas">
+    <a href="index.html"><img src="images/logo.png" id="logoWeb"></a>
     <div class="contenedor">
         <div class="formulario">
             <h1>Bienvenido, haga su reserva</h1>
@@ -30,7 +31,7 @@
                 <br>
                 <label for="numSocio">Nº de Socio</label>
                 <br>
-                <input class="cajaRespuesta" type="text" id="numSocio" name="numSocio" placeholder="Ej: 12345"
+                <input class="cajaRespuesta" type="number" id="numSocio" name="numSocio" placeholder="Ej: 12345"
                     required="required">
                 <br>
                 <br>
@@ -77,8 +78,10 @@
                 </select>
                 <br>
                 <br>
-                <input type="checkbox" id="checkboxServicios" name="checkboxServicios" value="aceptoTerminos" required="required">
-                <label id="textoTerminos" for="checkboxServicios">Acepto los términos y condiciones del bienestar del gimnasio</label>
+                <input type="checkbox" id="checkboxServicios" name="checkboxServicios" value="aceptoTerminos"
+                    required="required">
+                <label id="textoTerminos" for="checkboxServicios">Acepto los términos y condiciones del bienestar del
+                    gimnasio</label>
                 <input id="enviar" type="submit" value="Reservar">
         </div>
         </form>

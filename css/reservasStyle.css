@@ -9,16 +9,24 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* FORMULARIO */
+.contenedor{
+    position: relative;
+}
+#logoWeb{
+    position: absolute;
+    width: 150px;
+    top: 10px;
+    left: 10px;
+}
 .contenedor h1{
     text-align: center;
 }
 .formulario{
+    margin: 80px auto;
     font-family: 'Trebuchet MS';
     width: 550px;
     background: orange;
     padding: 30px 50px;
-    margin: auto;
-    margin-top: 105px;
     border-radius: 5px;
     color: black;
     box-shadow: 0px 0px 10px 7px black;
