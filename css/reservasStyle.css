@@ -1,6 +1,5 @@
 /*RESPONSIVE*/
 *{
-    box-sizing: border-box;
 }
 /*Parte del encabezado*/
 #encabezado{
@@ -12,24 +11,19 @@
     background-color: #f8e9da;
 }
 
-/*imagen del encabezado*/
-#imagenEncabezado{
-    text-align: center;
-}
-
-#imagenEncabezado img{
+#encabezado img{
     width: 100px;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
 
-#imagenPortada{
-    width: 100%;
-}
-
-/*Columnas del encabezado*/
 #parteAbajoEncabezado{
     column-count: 3;
-    height: 100%;
-    display: grid;
+    margin-top: 100px;
 }
 
 #parteAbajoEncabezado ul li{
@@ -53,9 +47,7 @@
 #parteAbajoEncabezado ul{
     margin: 0;
     padding: 0;
-    display: inline-flex;
     list-style: none;
-    padding: 0;
 }
 
 #tituloEncabezado{
@@ -64,13 +56,14 @@
     display: block;
 }
 
-/*Para poder poner fijo el encabezado en la parte de arriba*/
 body.reservas{
+    /*encabezado*/
     margin: 0;
 	padding: 0;
 	font-size: 1em;
 	line-height: 1.5em;
     background-color: #fff4e0;
+    /*formulario*/
     background: url(../images/gimnasioPortada.jpg);
     background-size: cover;
     background-attachment: fixed;
