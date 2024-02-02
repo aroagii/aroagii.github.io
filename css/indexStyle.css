@@ -25,11 +25,13 @@
 #img_piscina{
     grid-area: imagen;
     width: 100%;
+    
 }
 /* CUOTAS */
 #contenido h3 {
     color: #ff6600;
     font-weight: bold;
+    
 }
 
 #contenido h2 {
@@ -37,6 +39,7 @@
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #contenido h3 p{
