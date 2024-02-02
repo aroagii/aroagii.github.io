@@ -1,4 +1,4 @@
-body{
+.bodyActividades{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff4e0;
     background-size: cover;
@@ -6,17 +6,6 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     padding: 20px;
-}
-
-
-a{
-    text-decoration: none;
-    color: #000;
-    
-}
-
-a:hover {
-    color: wheat;
 }
 
 .actTit1{
@@ -42,7 +31,7 @@ a:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.7);
 }
 
-img{
+.imagenesAct{
     width: 100%; /* la mitad de la pagina */
     height: 100%;
     margin: 10px;
