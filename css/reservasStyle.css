@@ -45,3 +45,10 @@
 #enviar:hover{
     background-color: grey;
 }
+#textoTerminos{
+    text-align: center;
+    font-size: 15px;
+}
+#checkboxServicios{
+    vertical-align: middle;
+}
