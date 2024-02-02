@@ -26,56 +26,6 @@
     grid-area: imagen;
     width: 100%;
 }
-
-/* ZONA DE ABAJO: REDES Y CONTACTO */
-.pie{
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 99%;
-    padding: 10px;
-    color: white;
-}
-.imagen_redes{
-    width: 15px;
-    height: 15px;
-    vertical-align: middle;
-}
-.redes{
-    font-weight: bold;
-    vertical-align: middle;
-}
-a{
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.8);
-}
-a:link{
-    color: white;
-}
-a:visited{
-    color: white;
-}
-a:hover{
-    color: wheat;
-}
-#botonContacto{
-    border-radius: 10px;
-    border-width: 2px;
-    background-color: orange;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    float: right;
-    margin-top: -3px;
-    padding: 5px;
-    width: 100px;
-    box-shadow: 0px 0px 10px 7px black;
-}
-#botonContacto:hover{
-    background-color: rgb(197, 128, 0);
-    transition-duration: 0.3s;
-}
 /* CUOTAS */
 #contenido h3 {
     color: #ff6600;
