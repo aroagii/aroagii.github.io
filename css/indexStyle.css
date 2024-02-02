@@ -1,15 +1,26 @@
 /* CSS GENERAL */
+
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 } 
+
+.bodyIndex{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 .parIndex{
     font-size: 20px;
    }
 /* IMAGENES */
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 
 .imgns-container{
-    display: grid;
+    grid-column: 3/4;
     height: 300px;
     width: 300px;
     margin: 20px;
@@ -25,14 +36,18 @@
 #img_piscina{
     grid-area: imagen;
     width: 100%;
+    
 }
-/* CUOTAS */
+/* CONTENIDO */
 #contenido h3 {
+    
     color: #ff6600;
     font-weight: bold;
+    font-size: 25px;
 }
 
 #contenido h2 {
+    
     color: #19191a;
     font-size: 40px;
     font-weight: bold;
@@ -40,13 +55,14 @@
 }
 
 #contenido h3 p{
+    
     color: black;
     font-weight: lighter;
     font-size: 30px;
 
 }
 #contenido{
-    display: grid;
+    grid-column: 1/3;
     background-color: #fff4e0;
     padding: 40px;
     margin: 20px;
@@ -75,4 +91,5 @@ th {
 #vacio{
     background-color: #fcc47c;
 }
+
 

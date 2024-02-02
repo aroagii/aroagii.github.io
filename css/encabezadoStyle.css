@@ -14,7 +14,7 @@
 }
 
 #imagenEncabezado img{
-    width: 100px;
+    width: 300px;
 }
 
 #imagenPortada{
@@ -30,7 +30,8 @@
 
 #parteAbajoEncabezado ul li{
     text-align: center;
-    border: 1px solid black;
+    border-right:  1px solid darkorange;
+    border-left:  1px solid darkorange;
     padding: .5em;
     width: 100%;
 }
@@ -43,7 +44,7 @@
 }
 
 #parteAbajoEncabezado ul li:hover{
-    background-color: orange;
+    background-color: darkorange;
 }
 
 #parteAbajoEncabezado ul{
