@@ -46,3 +46,13 @@ a:hover{
     background-color: rgb(197, 128, 0);
     transition-duration: 0.3s;
 }
+@media only screen and (min-width: 280px) and (max-width: 768px){
+    .redes{
+        font-size: 8px;
+    }
+    #botonContacto{
+        width: 45px;
+        font-size: 8px;
+        margin-top: 0;
+    }
+}

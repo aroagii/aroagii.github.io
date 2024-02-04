@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .bodyReservas{
-    background: url(../images/gimnasioPortada.jpg);
+    background: url(../images/gimnasioPortada.jpeg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 .formulario{
-    margin: 80px auto;
+    margin: 100px auto;
     font-family: 'Trebuchet MS';
     width: 550px;
     background: orange;
@@ -60,3 +60,30 @@
 #checkboxServicios{
     vertical-align: middle;
 }
+@media only screen and (min-width: 280px) and (max-width: 768px){
+    .formulario{
+        width: 90%;
+        font-size: 12px;
+    }
+    #logoWeb{
+        width: 80px;
+        left: 40%;
+    }
+    .cajaRespuesta{
+        font-size: 12px;
+    }
+    #textoTerminos{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1368px) {
+    .formulario{
+        width: 70%;
+    }
+    #logoWeb{
+        width: 200px;
+        margin: 10px auto;
+        position: static;
+        display: block;
+    }
+  }
