@@ -46,12 +46,28 @@ a:hover{
     background-color: rgb(197, 128, 0);
     transition-duration: 0.3s;
 }
-@media only screen and (min-width: 280px) and (max-width: 767px){
+/* RESPONSIVE MÓVILES MÁS PEQUEÑOS */
+@media only screen and (min-width: 280px) and (max-width: 359px){
     .redes{
-        font-size: 7px;
+        font-size: 6px;
     }
     #botonContacto{
         width: 45px;
+        font-size: 8px;
+        margin-top: 3px;
+    }
+    .imagen_redes{
+        width: 8px;
+        height: 8px;
+    }
+}
+/* RESPONSIVE MÓVILES */
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    .redes{
+        font-size: 8px;
+    }
+    #botonContacto{
+        width: 50px;
         font-size: 8px;
         margin-top: 3px;
     }
