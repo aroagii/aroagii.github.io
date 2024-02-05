@@ -7,8 +7,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 /*portada*/
 #portada{
     position: relative;
@@ -44,6 +42,10 @@ iframe{
 }
 
 /*datos de contacto*/
+#contacto{
+    margin-left: 2%;
+    text-align: center;
+}
 
 #datosContacto p{
     text-align: center;
@@ -51,19 +53,60 @@ iframe{
     width: 100%;
 }
 
+#datosContacto p{
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#datosContacto #datos{
+    height: 100%;
+    column-count: 3;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 0;
+}
+
 .tipoDato{
     font-weight: bold;
 }
 
 /*Contenido del formulario*/
-#contacto{
-    margin-left: 2%;
-    text-align: center;
+
+#label{
+    font-weight: bold;
+}
+
+form{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid orange;
+}
+
+form div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
 }
 
 textarea{
     margin-top: 20px;
     border-radius: 5px;
+    width: 50%;
+}
+
+#submit{
+    width: 15%;
+    height: 30%;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(229,229,229, 0.5);
+    border-width: 1px;
 }
 
 input[type=text]{
