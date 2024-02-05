@@ -46,7 +46,7 @@ a:hover{
     background-color: rgb(197, 128, 0);
     transition-duration: 0.3s;
 }
-/* RESPONSIVE MÓVILES MÁS PEQUEÑOS */
+/* RESPONSIVE MÓVILES MÁS PEQUEÑOSS */
 @media only screen and (max-width: 359px){
     .redes{
         font-size: 6px;
