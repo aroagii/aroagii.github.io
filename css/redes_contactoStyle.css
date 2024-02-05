@@ -1,4 +1,11 @@
 /* REDES-CONTACTO */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+}
 .pie{
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -37,7 +44,6 @@ a:hover{
     text-decoration: none;
     text-align: center;
     float: right;
-    margin-top: -3px;
     padding: 5px;
     width: 100px;
     box-shadow: 0px 0px 10px 7px black;
@@ -49,12 +55,13 @@ a:hover{
 /* RESPONSIVE MÓVILES MÁS PEQUEÑOSS */
 @media only screen and (max-width: 359px){
     .redes{
-        font-size: 6px;
+        font-size: 8px;
     }
     #botonContacto{
         width: 45px;
         font-size: 8px;
         margin-top: 3px;
+        padding: 3px;
     }
     .imagen_redes{
         width: 8px;
