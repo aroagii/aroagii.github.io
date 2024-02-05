@@ -60,7 +60,7 @@
 #checkboxServicios{
     vertical-align: middle;
 }
-@media only screen and (min-width: 280px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .formulario{
         width: 90%;
         font-size: 12px;

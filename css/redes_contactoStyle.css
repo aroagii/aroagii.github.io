@@ -47,7 +47,7 @@ a:hover{
     transition-duration: 0.3s;
 }
 /* RESPONSIVE MÓVILES MÁS PEQUEÑOS */
-@media only screen and (min-width: 280px) and (max-width: 359px){
+@media only screen and (max-width: 359px){
     .redes{
         font-size: 6px;
     }
