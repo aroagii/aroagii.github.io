@@ -86,3 +86,30 @@
     border: 3px solid #19191a;
     color: #92e1ee;
 }
+
+@media only screen and (min-width: 280px) and (max-width: 768px){
+    .bodyActividades{
+        width: 90%;
+        font-size: 12px;
+    }
+    #botonApuntarse{
+        width: 80px;
+        left: 40%;
+        font-size: 12px;
+    }
+    .desc{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1368px) {
+    .bodyActividades{
+        width: 70%;
+    }
+    .div_img{
+        width: 200px;
+        margin: 10px auto;
+        position: static;
+        display: block;
+    }
+  }
