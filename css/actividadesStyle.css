@@ -91,6 +91,15 @@
     .bodyActividades{
         width: 90%;
         font-size: 12px;
+        margin-left: 0;
+    }
+
+    .actTit1{
+        font-size: 35px;
+    }
+
+    .actTit2{
+        font-size: 20px;
     }
     #botonApuntarse{
         width: 80px;
@@ -105,11 +114,15 @@
 @media (min-width: 768px) and (max-width: 1368px) {
     .bodyActividades{
         width: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .div_img{
-        width: 200px;
-        margin: 10px auto;
-        position: static;
-        display: block;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        padding: 20px;
+        
     }
   }

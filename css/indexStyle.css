@@ -42,14 +42,14 @@
     
 }
 /* CONTENIDO */
-#contenido h3 {
+#contenido h2 {
     
     color: #ff6600;
     font-weight: bold;
     font-size: 25px;
 }
 
-#contenido h2 {
+#contenido h1 {
     
     color: #19191a;
     font-size: 40px;
@@ -57,7 +57,7 @@
     text-transform: uppercase;
 }
 
-#contenido h3 p{
+#contenido h2 p{
     
     color: black;
     font-weight: lighter;
@@ -95,4 +95,49 @@ th {
     background-color: #fcc47c;
 }
 
+/*RESPONSIVE DE EL INDEX*/
+
+  @media only screen and (min-width: 280px) and (max-width: 768px){
+    .bodyIndex{
+        width: 90%;
+        font-size: 12px;
+    }
+
+    
+
+    #contenido h1{
+        font-size: 30px;
+    }
+
+    #contenido h2{
+        font-size: 20px;
+    }
+
+    table{
+        width: 80px;
+        font-size: 12px;
+    }
+    #contenido p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1368px) {
+
+
+    .bodyIndex{
+        width: 90%;
+        font-size: 12px;
+    }
+    
+    .imgns-container{
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    table{
+        width: 90%;
+        font-size: 20px;
+    }
+  }
 
