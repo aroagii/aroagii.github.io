@@ -72,7 +72,7 @@
 
 /*Reajuste encabezado para dispositivos pequeños*/
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 720px){
     #parteAbajoEncabezado ul li{
         font-size: small;
     }
