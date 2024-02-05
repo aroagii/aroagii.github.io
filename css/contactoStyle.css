@@ -7,55 +7,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*imagen del encabezado*/
-#imagenEncabezado{
-    text-align: center;
-}
 
-#imagenEncabezado img{
-    width: 100px;
-}
-
-#imagenPortada{
-    width: 100%;
-}
-
-/*Columnas del encabezado*/
-#parteAbajoEncabezado, #datosContacto{
-    column-count: 3;
-    height: 100%;
-    display: grid;
-}
-
-#parteAbajoEncabezado ul li{
-    text-align: center;
-    border: 1px solid black;
-    padding: .5em;
-    width: 100%;
-}
-
-#parteAbajoEncabezado ul li:nth-child(3){
-    background-color: orange;
-}
-
-#parteAbajoEncabezado ul li a{
-    display: block;
-    padding: 0 10px;
-    text-decoration: none;
-    color: black;
-}
-
-#parteAbajoEncabezado ul li:hover{
-    background-color: #ff5c00;
-}
-
-#parteAbajoEncabezado ul, #datos{
-    margin: 0;
-    padding: 0;
-    display: inline-flex;
-    list-style: none;
-    padding: 0;
-}
 
 /*portada*/
 #portada{
