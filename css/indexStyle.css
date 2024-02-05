@@ -19,6 +19,9 @@
     grid-template-columns: auto auto auto auto;
 }
 
+*{
+    box-sizing: border-box;
+}
 .imgns-container{
     grid-column: 3/4;
     height: 300px;

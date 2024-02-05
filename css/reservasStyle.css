@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 .bodyReservas{
-    background: url(../images/gimnasioPortada.jpeg);
+    background: url(../images/fondoReservas.jpeg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
