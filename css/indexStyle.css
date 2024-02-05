@@ -1,8 +1,7 @@
 /* CSS GENERAL */
-
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    box-sizing: border-box;
 } 
 
 .bodyIndex{
@@ -13,15 +12,13 @@
 .parIndex{
     font-size: 20px;
    }
+
 /* IMAGENES */
 .contenedor{
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-*{
-    box-sizing: border-box;
-}
 .imgns-container{
     grid-column: 3/4;
     height: 300px;
@@ -41,6 +38,7 @@
     width: 100%;
     
 }
+
 /* CONTENIDO GENRAL*/
 #contenido h2 {
     
