@@ -37,7 +37,7 @@
     width: 100%;
     
 }
-/* CONTENIDO */
+/* CONTENIDO GENRAL*/
 #contenido h2 {
     
     color: #ff6600;
@@ -92,15 +92,16 @@ th {
 }
 
 /*RESPONSIVE DE EL INDEX*/
-
+/* Smartphone */
   @media only screen and (min-width: 280px) and (max-width: 768px){
     .bodyIndex{
         width: 90%;
         font-size: 12px;
     }
 
-    
-
+    .imgns-container{
+        display: none;
+    }
     #contenido h1{
         font-size: 30px;
     }
@@ -117,11 +118,10 @@ th {
         font-size: 18px;
     }
 }
-
+/* tablet */
 @media (min-width: 768px) and (max-width: 1368px) {
-
-
-    .bodyIndex{
+    
+    bodyIndex{
         width: 90%;
         font-size: 12px;
     }
