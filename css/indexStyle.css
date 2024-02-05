@@ -2,7 +2,7 @@
 
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    box-sizing: border-box;
 } 
 
 .bodyIndex{
@@ -17,10 +17,6 @@
 .contenedor{
     display: grid;
     grid-template-columns: auto auto auto auto;
-}
-
-*{
-    box-sizing: border-box;
 }
 .imgns-container{
     grid-column: 3/4;
