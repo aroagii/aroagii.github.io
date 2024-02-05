@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .bodyActividades{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff4e0;
@@ -45,6 +49,7 @@
     margin-right: 10px;
 }
 
+/* imagenes de cada actividad */
 .div_img{
     display: grid;
     grid-template-columns: auto auto;
@@ -87,11 +92,13 @@
     color: #92e1ee;
 }
 
+/*RESPONSIVE DE ACTIVIDADES*/
+/* Smartphone */
 @media only screen and (min-width: 280px) and (max-width: 768px){
     .bodyActividades{
         width: 90%;
         font-size: 12px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .actTit1{
@@ -110,7 +117,7 @@
         font-size: 12px;
     }
 }
-
+/* tablet */
 @media (min-width: 768px) and (max-width: 1368px) {
     .bodyActividades{
         width: 70%;
