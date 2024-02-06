@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 .bodyActividades{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #fff4e0;
@@ -10,7 +6,6 @@
     background-repeat: no-repeat;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 20px;
     
 }
 

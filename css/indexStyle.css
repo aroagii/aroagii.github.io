@@ -72,6 +72,8 @@
     box-sizing: border-box;
     position: relative;
     line-height: 1.6;
+    display:ruby-text-container;
+    overflow: hidden;
 }
 
 a{
@@ -115,7 +117,7 @@ th {
     }
 
     table{
-        width: 80px;
+        width: 100%;
         font-size: 12px;
     }
     #contenido p{
