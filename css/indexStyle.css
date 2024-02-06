@@ -72,8 +72,6 @@
     box-sizing: border-box;
     position: relative;
     line-height: 1.6;
-    display:ruby-text-container;
-    overflow: hidden;
 }
 
 a{
@@ -84,6 +82,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    /*Esto es lo importante. Es una solución rapida pero hay que ver como hacerlo funcionar*/
+    overflow-x: scroll;
 }
 th, td {
     border: 1px solid #f0a458;
@@ -108,16 +108,15 @@ th {
     .imgns-container{
         display: none;
     }
-    
-    #contenido h1{
-        font-size: 30px;
+    #contenido{
+        overflow: hidden;
     }
 
     #contenido h2{
         font-size: 20px;
     }
 
-    table{
+    #tablaContenido{
         width: 100%;
         font-size: 12px;
     }
