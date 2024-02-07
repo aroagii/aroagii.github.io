@@ -77,13 +77,15 @@
 a{
     text-decoration: none;
 }
+
 /*TABLA HORARIO*/
 table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
     margin-top: 20px;
     /*Esto es lo importante. Es una solución rapida pero hay que ver como hacerlo funcionar*/
     overflow-x: scroll;
+
 }
 th, td {
     border: 1px solid #f0a458;
@@ -97,17 +99,20 @@ th {
     background-color: #fcc47c;
 }
 
-/*RESPONSIVE DE EL INDEX*/
-/* Smartphone */
+/*RESPONSIVE DEL INDEX*/
+/* telefono */
   @media only screen and (min-width: 280px) and (max-width: 768px){
     .bodyIndex{
         width: 90%;
-        font-size: 12px;
+        font-size: 12px; 
     }
 
+    /*quito las imagenes para que en los telefonos no salga*/
     .imgns-container{
         display: none;
     }
+
+    /*ajuiste de formato de texto y titulos*/
     #contenido{
         overflow: hidden;
     }
@@ -120,8 +125,23 @@ th {
         width: 100%;
         font-size: 12px;
     }
+
     #contenido p{
         font-size: 18px;
+        text-align: justify;
+    }
+
+    /*ajusta el contenido al tamaño del dispoitivo*/
+    table {
+        width: 100%;
+        font-size: 12px;
+        overflow-x: auto; /* esto hace que se pueda desplazar horizontalmente si lo necesita el usuario */
+    }
+
+    /* ajusta el tamaño de las celdas*/
+    th, td {
+        padding: 8px;
+        text-align: center;
     }
 }
 /* tablet */
